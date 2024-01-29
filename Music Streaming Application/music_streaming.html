@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music streaming</title>
+    <link rel="stylesheet" type="text/css" href="music_streaming.css">
+</head>
+<body>
+
+    <div id="player">
+        <h1>ɱųʂıƈ ℘Ɩąყɛཞ</h1>
+        <ul id="playlist">
+            <li onclick="playSong('Yedurangula Vaana.mp3')"><h2>Song1</h2></li>
+            <li onclick="playSong('darshana-hridayam.mp3')"><h2>Song2</h2></li>
+            <li onclick="playSong('Tum Tum.mp3')"><h2>Song3</h2></li>
+        </ul>
+        <audio id="audioPlayer" controls></audio>
+        <div id="controls">
+            <button onclick="play()">Play</button>
+            <button onclick="pause()">Pause</button>
+            <button onclick="stop()">Stop</button>
+        </div>
+    </div>
+
+    <script src="music_streaming.js"></script>
+
+</body>
+</html>
